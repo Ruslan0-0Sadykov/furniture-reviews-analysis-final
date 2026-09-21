@@ -1,0 +1,325 @@
+{
+  "raw": {
+    "files": [
+      {
+        "file": "reviews_2gis.xlsx",
+        "rows": 8269,
+        "columns": 13,
+        "exact_duplicates": 16,
+        "fields": [
+          {
+            "column": "Наименование",
+            "dtype": "object",
+            "missing": 0,
+            "missing_share": 0.0,
+            "unique": 346
+          },
+          {
+            "column": "Оценка",
+            "dtype": "float64",
+            "missing": 118,
+            "missing_share": 0.014270165679042206,
+            "unique": 37
+          },
+          {
+            "column": "Количество оценок",
+            "dtype": "object",
+            "missing": 118,
+            "missing_share": 0.014270165679042206,
+            "unique": 88
+          },
+          {
+            "column": "Адрес",
+            "dtype": "object",
+            "missing": 0,
+            "missing_share": 0.0,
+            "unique": 229
+          },
+          {
+            "column": "Координаты объекта",
+            "dtype": "object",
+            "missing": 0,
+            "missing_share": 0.0,
+            "unique": 411
+          },
+          {
+            "column": "Количество отзывов",
+            "dtype": "float64",
+            "missing": 118,
+            "missing_share": 0.014270165679042206,
+            "unique": 86
+          },
+          {
+            "column": "Автор",
+            "dtype": "object",
+            "missing": 118,
+            "missing_share": 0.014270165679042206,
+            "unique": 7285
+          },
+          {
+            "column": "Статус автора",
+            "dtype": "object",
+            "missing": 118,
+            "missing_share": 0.014270165679042206,
+            "unique": 120
+          },
+          {
+            "column": "Оценка автора",
+            "dtype": "float64",
+            "missing": 118,
+            "missing_share": 0.014270165679042206,
+            "unique": 5
+          },
+          {
+            "column": "Дата",
+            "dtype": "object",
+            "missing": 118,
+            "missing_share": 0.014270165679042206,
+            "unique": 2435
+          },
+          {
+            "column": "Текст",
+            "dtype": "object",
+            "missing": 118,
+            "missing_share": 0.014270165679042206,
+            "unique": 8107
+          },
+          {
+            "column": "Like",
+            "dtype": "float64",
+            "missing": 118,
+            "missing_share": 0.014270165679042206,
+            "unique": 21
+          },
+          {
+            "column": "Dislike",
+            "dtype": "float64",
+            "missing": 8269,
+            "missing_share": 1.0,
+            "unique": 0
+          }
+        ]
+      },
+      {
+        "file": "reviews_google.xlsx",
+        "rows": 2295,
+        "columns": 13,
+        "exact_duplicates": 0,
+        "fields": [
+          {
+            "column": "Наименование",
+            "dtype": "object",
+            "missing": 0,
+            "missing_share": 0.0,
+            "unique": 102
+          },
+          {
+            "column": "Оценка",
+            "dtype": "object",
+            "missing": 65,
+            "missing_share": 0.02832244008714597,
+            "unique": 25
+          },
+          {
+            "column": "Количество оценок",
+            "dtype": "float64",
+            "missing": 2295,
+            "missing_share": 1.0,
+            "unique": 0
+          },
+          {
+            "column": "Адрес",
+            "dtype": "object",
+            "missing": 0,
+            "missing_share": 0.0,
+            "unique": 97
+          },
+          {
+            "column": "Координаты объекта",
+            "dtype": "object",
+            "missing": 0,
+            "missing_share": 0.0,
+            "unique": 99
+          },
+          {
+            "column": "Количество отзывов",
+            "dtype": "float64",
+            "missing": 65,
+            "missing_share": 0.02832244008714597,
+            "unique": 26
+          },
+          {
+            "column": "Автор",
+            "dtype": "object",
+            "missing": 65,
+            "missing_share": 0.02832244008714597,
+            "unique": 1956
+          },
+          {
+            "column": "Статус автора",
+            "dtype": "object",
+            "missing": 286,
+            "missing_share": 0.12461873638344227,
+            "unique": 919
+          },
+          {
+            "column": "Оценка автора",
+            "dtype": "object",
+            "missing": 65,
+            "missing_share": 0.02832244008714597,
+            "unique": 5
+          },
+          {
+            "column": "Дата",
+            "dtype": "object",
+            "missing": 65,
+            "missing_share": 0.02832244008714597,
+            "unique": 21
+          },
+          {
+            "column": "Текст",
+            "dtype": "object",
+            "missing": 988,
+            "missing_share": 0.4305010893246187,
+            "unique": 1215
+          },
+          {
+            "column": "Like",
+            "dtype": "float64",
+            "missing": 2029,
+            "missing_share": 0.8840958605664488,
+            "unique": 6
+          },
+          {
+            "column": "Dislike",
+            "dtype": "float64",
+            "missing": 2295,
+            "missing_share": 1.0,
+            "unique": 0
+          }
+        ]
+      },
+      {
+        "file": "reviews_yandex.xlsx",
+        "rows": 2341,
+        "columns": 13,
+        "exact_duplicates": 1,
+        "fields": [
+          {
+            "column": "Наименование",
+            "dtype": "object",
+            "missing": 0,
+            "missing_share": 0.0,
+            "unique": 214
+          },
+          {
+            "column": "Оценка",
+            "dtype": "object",
+            "missing": 156,
+            "missing_share": 0.06663818880820162,
+            "unique": 26
+          },
+          {
+            "column": "Количество оценок",
+            "dtype": "object",
+            "missing": 156,
+            "missing_share": 0.06663818880820162,
+            "unique": 63
+          },
+          {
+            "column": "Адрес",
+            "dtype": "object",
+            "missing": 0,
+            "missing_share": 0.0,
+            "unique": 125
+          },
+          {
+            "column": "Координаты объекта",
+            "dtype": "object",
+            "missing": 0,
+            "missing_share": 0.0,
+            "unique": 296
+          },
+          {
+            "column": "Количество отзывов",
+            "dtype": "float64",
+            "missing": 114,
+            "missing_share": 0.048697137975224264,
+            "unique": 43
+          },
+          {
+            "column": "Автор",
+            "dtype": "object",
+            "missing": 114,
+            "missing_share": 0.048697137975224264,
+            "unique": 1840
+          },
+          {
+            "column": "Статус автора",
+            "dtype": "object",
+            "missing": 131,
+            "missing_share": 0.05595899188381034,
+            "unique": 28
+          },
+          {
+            "column": "Оценка автора",
+            "dtype": "float64",
+            "missing": 114,
+            "missing_share": 0.048697137975224264,
+            "unique": 5
+          },
+          {
+            "column": "Дата",
+            "dtype": "object",
+            "missing": 114,
+            "missing_share": 0.048697137975224264,
+            "unique": 1238
+          },
+          {
+            "column": "Текст",
+            "dtype": "object",
+            "missing": 114,
+            "missing_share": 0.048697137975224264,
+            "unique": 2183
+          },
+          {
+            "column": "Like",
+            "dtype": "float64",
+            "missing": 967,
+            "missing_share": 0.41307133703545496,
+            "unique": 13
+          },
+          {
+            "column": "Dislike",
+            "dtype": "float64",
+            "missing": 1736,
+            "missing_share": 0.7415634344297309,
+            "unique": 7
+          }
+        ]
+      }
+    ],
+    "combined": {
+      "rows_before_cleaning": 12905,
+      "files": 3
+    }
+  },
+  "preprocessing": {
+    "rows_loaded": 12905,
+    "blank_or_nonreview_rows_removed": 297,
+    "exact_duplicates_removed": 23,
+    "rows_processed": 12585,
+    "text_nonempty": 11662,
+    "rating_nonmissing": 12585
+  },
+  "llm": {
+    "enabled": true,
+    "requested_limit": 60,
+    "attempted": 54,
+    "successful": 54,
+    "strata": 9,
+    "cache_hits": 54,
+    "network_successful": 0,
+    "status": "completed"
+  }
+}

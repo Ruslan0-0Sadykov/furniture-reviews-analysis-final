@@ -1,0 +1,32 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+authorized_key*.json
+service-account*.json
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/raw/
+data/processed/
+*.pyc
+.pytest_cache/
+outputs/qa/
+outputs/.mpl/
+report/qa/
+codex_test.txt
+tools/node_modules/
+yandex_cache/
+*.inspect.ndjson
+Отзывы Мебель гипотезы (1).docx
+
+# Local analytical exports that contain review-level text or identifiers.
+outputs/tables/classification_audit.csv
+outputs/tables/classification_audit.xlsx
+outputs/tables/h5_price_records.csv
+outputs/metrics/hypotheses.json
+datalens/datalens_dataset.csv

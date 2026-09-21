@@ -1,0 +1,15 @@
+{
+  "tested_at": "2026-09-22",
+  "endpoint": "https://ai.api.cloud.yandex.net/foundationModels/v1/completion",
+  "http_status": 200,
+  "http_status_text": "OK",
+  "structured_output": "jsonSchema",
+  "stratification": "source x sentiment",
+  "strata": 9,
+  "requested_limit": 60,
+  "processed": 54,
+  "per_stratum": 6,
+  "cache_enabled": true,
+  "secrets_redacted": true,
+  "result": "success"
+}

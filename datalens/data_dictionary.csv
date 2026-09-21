@@ -1,0 +1,45 @@
+﻿field,dtype,description,missing
+company,object,Название организации,0
+company_rating_raw,object,Техническое или исходное поле,46
+company_ratings_count_raw,object,Техническое или исходное поле,2276
+address,object,Техническое или исходное поле,0
+coordinates,object,Техническое или исходное поле,0
+company_reviews_count,float64,Техническое или исходное поле,0
+author,object,Техническое или исходное поле,0
+author_status,object,Техническое или исходное поле,238
+rating_raw,object,Техническое или исходное поле,0
+date_raw,object,Техническое или исходное поле,0
+text_original,object,Техническое или исходное поле,0
+likes,float64,Техническое или исходное поле,2812
+dislikes,float64,Техническое или исходное поле,11980
+source,object,Источник,0
+source_row,int64,Техническое или исходное поле,0
+rating,float64,Оценка автора от 1 до 5,0
+company_rating,float64,Техническое или исходное поле,46
+text,object,Очищенный текст,0
+review_date,datetime64[ns],"Дата отзыва, если распознана",4
+review_id,object,Стабильный идентификатор отзыва,0
+sentiment,string,Тональность по рейтингу,0
+word_count,int64,Количество слов,0
+char_count,int64,Техническое или исходное поле,0
+sentence_count,int64,Техническое или исходное поле,0
+unique_words,int64,Техническое или исходное поле,0
+exclamation_count,int64,Техническое или исходное поле,0
+emoji_count,int64,Техническое или исходное поле,0
+intensifier_count,int64,Техническое или исходное поле,0
+emotion_intensity,float64,Индекс эмоциональности 0–1,0
+sentiment_score,float64,Техническое или исходное поле,0
+service_issue,bool,Признак сервисной проблемы,0
+product_quality_issue,bool,Признак проблемы качества,0
+delivery_mentioned,bool,Техническое или исходное поле,0
+delivery_speed,object,Явная оценка скорости доставки,0
+return_or_claim,bool,"Возврат, обмен, претензия или рекламация",0
+return_reason,object,Причины возврата или претензии через |,0
+complaint_categories,object,Техническое или исходное поле,0
+product_type,object,Техническое или исходное поле,0
+furniture_group,object,"soft, cabinet, other или unknown",0
+price_rub,float64,Явно упомянутая сумма в рублях,12406
+aspects_count,int64,Техническое или исходное поле,0
+topics,object,Техническое или исходное поле,0
+classification_basis,object,Источник автоматической классификации,0
+confidence,float64,Техническое или исходное поле,0
