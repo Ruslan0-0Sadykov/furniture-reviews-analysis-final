@@ -30,3 +30,13 @@ outputs/tables/classification_audit.xlsx
 outputs/tables/h5_price_records.csv
 outputs/metrics/hypotheses.json
 datalens/datalens_dataset.csv
+
+# Local submission package contains student/supervisor identity data.
+submission/
+
+# Local practice sources and report build tooling contain identity data or licensed material.
+ПРАКТИКА СДЕЛАННАЯ НА ПОЛОВИНУ.docx
+sto_005.pdf
+tools/build_final_report.py
+tools/export_word.ps1
+tools/qa_final_report.py
